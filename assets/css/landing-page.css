@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.green_nav {
+    background-color: #7A9C49;
+}
+
+.primary-white {
+    color: #F2F2F2;
+}
+
+
+.green_nav p {
+    margin-bottom: 0;
+}
+
+/* first banner  */
+
+.first-banner {
+    background-image: url(../images/banner_first_bg.png);
+    background-size: cover;
+    min-height: 900px;
+}
+
+.banner-text {
+    max-width: 730px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.image-center{
+    transform: translateY(-40%);
+}
+
+.mh-image{
+    height: 220px;
+}
+
+.border-radius-tl-tr {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.play-video-btn {
+    border: 15px solid white;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid white;
+    border-bottom: 25px solid transparent;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+.get-free-access {
+    background: linear-gradient(to bottom, #FFA300 3%, #FF7A00 100%);
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.n-underline{
+    text-decoration: none;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.lb-color {
+    background-color: #ecf2fd;
+}
+
+.foundation {
+    color: #1F1F1F;
+}
+
+.border-right {
+    border-right: 1px solid lightgray;
+}
+
+.border-left {
+    border-left: 1px solid lightgray;
+}
+
+.shadow-inset {
+    box-shadow: inset -18px 0 20px -20px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-outset {
+    box-shadow: 10px 0 51px -20px rgba(0, 0, 0, 0.2);
+}
+
+.get-start{
+    color: #FFA300;
+    border-color: #FFA300 !important;
+}
+
+.get-start-bg{
+    background-color: #FFA300;
+    color: white;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.privacy-policy{
+    color: black;
+}
+
+.support{
+    color: gray;
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+.max-content{
+    /* min-width: max-content; */
+    display: inline;
+}
+/* media Queries CSS  */
+
+.for-widescreen {
+    display: block;
+}
+
+@media screen and (max-width: 575px) {
+    .fs-60{
+        font-size: 40px;
+    }
+    .first-banner {
+        min-height: 630px;
+    }
+}
